@@ -222,6 +222,82 @@ a:hover {
     }
 }
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #1a1a1a;
+        color: #e5e5e5;
+    }
+    
+    .masthead {
+        border-bottom-color: #e5e5e5;
+    }
+    
+    nav {
+        border-top-color: #555;
+        border-bottom-color: #555;
+    }
+    
+    nav a {
+        color: #e5e5e5;
+    }
+    
+    nav a:hover {
+        border-bottom-color: #e5e5e5;
+        background: #333;
+    }
+    
+    code {
+        background: #2a2a2a;
+        border-color: #555;
+        color: #e5e5e5;
+    }
+    
+    pre {
+        background: #252525;
+        border-color: #555;
+        border-left-color: #e5e5e5;
+        color: #e5e5e5;
+    }
+    
+    .sidebar {
+        background: #252525;
+        border-color: #555;
+        border-left-color: #e5e5e5;
+    }
+    
+    .commit-item {
+        border-bottom-color: #333;
+    }
+    
+    .commit-meta {
+        color: #999;
+    }
+    
+    a {
+        color: #e5e5e5;
+    }
+    
+    a:hover {
+        background: #333;
+    }
+    
+    em {
+        background: linear-gradient(120deg, #333 0%, #333 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 40%;
+        background-position: 0 80%;
+    }
+    
+    .tagline {
+        color: #aaa;
+    }
+    
+    .meta-info {
+        color: #888;
+    }
+}
+
 /* Print styles */
 @media print {
     .sidebar, nav {
