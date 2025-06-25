@@ -105,7 +105,6 @@ p {
 em {
     font-weight: bold;
     font-style: normal;
-    background: linear-gradient(120deg, #f3f3f3 0%, #f3f3f3 100%);
     background-repeat: no-repeat;
     background-size: 100% 40%;
     background-position: 0 80%;
