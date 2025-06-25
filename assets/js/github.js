@@ -2,7 +2,7 @@
 async function fetchGitHubStats() {
     try {
         // Get repository path from current URL or fallback
-        const repo = 'erikolesen/democratic-code-manifesto'; // Update with your actual repo
+        const repo = 'erikolesen/democratic-code-manifesto';
         
         const [repoData, commits] = await Promise.all([
             fetch(`https://api.github.com/repos/${repo}`).then(r => r.json()),
