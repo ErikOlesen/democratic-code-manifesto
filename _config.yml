@@ -10,4 +10,4 @@ plugins:
   - jekyll-sitemap
 
 github:
-  repository_url: "https://github.com/yourusername/democratic-code-manifesto"
+  repository_url: "https://github.com/ErikOlesen/democratic-code-manifesto"
