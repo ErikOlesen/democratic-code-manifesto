@@ -1,0 +1,13 @@
+title: "Democratic Code"
+description: "A manifesto for software that embodies democratic values"
+url: "https://democraticcode.org"
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+github:
+  repository_url: "https://github.com/yourusername/democratic-code-manifesto"
