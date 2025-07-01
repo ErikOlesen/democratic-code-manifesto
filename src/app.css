@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@import url('https://cdn.jsdelivr.net/gh/sebsan/Bagnard@main/fonts/web/bagnard.css');
+
+@layer base {
+	:root {
+		/* Define CSS custom properties for font families */
+		--font-bagnard-serif: 'Bagnard Regular', serif;
+		--font-bagnard-sans: 'Bagnard Sans Regular', sans-serif;
+		--font-bagnard-bold: 'Bagnard Bold', serif;
+		--font-bagnard-italic: 'Bagnard Italic', serif;
+	}
+
+	body {
+		@apply bg-gray-50 text-lg leading-relaxed text-gray-900;
+		font-family: var(--font-bagnard-serif);
+	}
+}
+
+@layer utilities {
+	.font-bagnard-serif {
+		font-family: var(--font-bagnard-serif);
+	}
+
+	.font-bagnard-sans {
+		font-family: var(--font-bagnard-sans);
+	}
+
+	.font-bagnard-bold {
+		font-family: var(--font-bagnard-bold);
+	}
+
+	.font-bagnard-italic {
+		font-family: var(--font-bagnard-italic);
+	}
+
+	.text-justify {
+		text-align: justify;
+		hyphens: auto;
+	}
+}
